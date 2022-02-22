@@ -1,38 +1,60 @@
 import React from 'react';
 
-import mechanic1 from '../../../images/mechanic/mechanic-1.jpg';
-import mechanic2 from '../../../images/mechanic/mechanic-2.jpg'
-import mechanic3 from '../../../images/mechanic/mechanic-3.jpg'
-import mechanic4 from '../../../images/mechanic/mechanic-4.jpg'
+import babar from '../../../images/developers/Babar.jpg';
+import sabbir from '../../../images/developers/sabbir.jpg';
+import shohan from '../../../images/developers/Shohan.jpg';
+import bipul from '../../../images/developers/Bipul.jpg';
 import Expert from '../Expert/Expert';
 
 const experts = [
     {
-        img: mechanic1,
-        name: 'Andrew Smith',
-        expertize: '-Engine Expert-'
+        img: babar,
+        name: 'Mozaddid Babar',
+        expertize: 'Front-end & Backend Developer'
     },
     {
-        img: mechanic2,
-        name: 'John Anderson',
-        expertize: '-Polish Expert-'
+        img: sabbir,
+        name: 'Sabbir Sourav',
+        expertize: 'UI Designer'
     },
     {
-        img: mechanic3,
-        name: 'Zakaria Smith',
-        expertize: '-Coloring Expert-'
+        img: shohan,
+        name: 'Samsuddin Shohan',
+        expertize: 'Front-end Developer'
     },
     {
-        img: mechanic4,
-        name: 'Sakib Anderson',
-        expertize: '-Alrounder Expert-'
+        img: bipul,
+        name: 'Bipul Roy',
+        expertize: 'Fron-end Designer'
     },
 ]
+// const experts = [
+//     {
+//         img: mechanic1,
+//         name: 'Andrew Smith',
+//         expertize: '-Engine Expert-'
+//     },
+//     {
+//         img: mechanic2,
+//         name: 'John Anderson',
+//         expertize: '-Polish Expert-'
+//     },
+//     {
+//         img: mechanic3,
+//         name: 'Zakaria Smith',
+//         expertize: '-Coloring Expert-'
+//     },
+//     {
+//         img: mechanic4,
+//         name: 'Sakib Anderson',
+//         expertize: '-Alrounder Expert-'
+//     },
+// ]
 
 const Experts = () => {
     return (
         <div id="experts" className="container">
-            <h2 className="text-primary mt-5">Our Experts</h2>
+            <h2 className="text-primary fw-bold mt-5">Our Developers</h2>
             <div className="row">
                 {
                     experts.map(expert => <Expert

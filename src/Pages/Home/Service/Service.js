@@ -1,20 +1,29 @@
 import React from 'react';
 import './Service.css';
 import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 
 const Service = ({ service }) => {
     // const {service} = props;
-    const { id, name, price, description, img } = service;
+    const { _id, name, price, description, img } = service;
     return (
-        <div className="service pb-3">
-            <img src={img} alt="" />
-            <h3>{name}</h3>
-            <h5>Price: {price}</h5>
-            <p className="px-3">{description}</p>
-            <Link to={`/booking/${id}`}>
-                <button className="btn btn-warning">Book {name.toLowerCase()}</button>
+        <Card className='services-card my-5' style={{
+            width: '18rem', marginLeft: '60px'
+        }}>
+            <Card.Img variant="top" src={img} />
+            <Card.Body>
+                <Card.Title className='text-info fw-bold'>{name}</Card.Title>
+                <Card.Text>
+                    {description}
+                </Card.Text>
+                <Card.Text>
+                   <p className='fw-bold'>Price:  {price}</p>
+                </Card.Text>
+                <Link to={`/booking/${_id}`}>
+                <button className="btn btn-warning">Rent {name.toLowerCase()}</button>
             </Link>
-        </div>
+            </Card.Body>
+        </Card>
     );
 };
 

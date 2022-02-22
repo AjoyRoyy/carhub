@@ -1,0 +1,11 @@
+.login-page {
+  height: 100vh;
+}
+.login-box {
+  width: 35%;
+  height: 450px;
+}
+.btn-google:hover {
+  background-color: rgb(13 110 253);
+  color: whitesmoke;
+}
