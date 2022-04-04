@@ -30,7 +30,7 @@ const Login = () => {
                     <button onClick={ ()=> signInUsingGoogle() } className="btn btn-lg btn-google w-100 shadow btn-block btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png" /> Google Sign-in</button>
                     <br />
                     <br />
-                    <Link to='/register' className="btn btn-white w-100 rounded">New User? <span className='text-primary'>Please Register First. Is this right?</span> </Link>
+                    <Link to='/register' className="btn btn-white w-100 rounded">New User? <span className='text-primary'>Please Register First</span> </Link>
                 </div>
             </div>
         </div>
