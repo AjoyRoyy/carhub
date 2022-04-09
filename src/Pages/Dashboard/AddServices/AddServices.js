@@ -1,9 +1,8 @@
 import axios from 'axios';
 import React from 'react';
-import { useForm } from "react-hook-form";
-import './AddService.css';
-
-const AddService = () => {
+import { useForm } from 'react-hook-form';
+import './AddServices.css' 
+const AddServices = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
         console.log(data);
@@ -16,7 +15,7 @@ const AddService = () => {
             })
     };
     return (
-        <div className="add-service">
+        <div className="add-service" id='add-services'>
             <h2>Please Add a Service</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
@@ -29,4 +28,4 @@ const AddService = () => {
     );
 };
 
-export default AddService;
+export default AddServices;

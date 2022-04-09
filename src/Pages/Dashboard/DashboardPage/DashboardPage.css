@@ -1,0 +1,27 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+    top: 180px;
+    left: 0;
+    border-radius: 20px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  /* Style sidebar links */
+.anchor {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 5%;
+    color: #818181;
+    display: block;
+  }
+/* Style links on mouse-over */
+.sidebar a:hover {
+    background-color: #f1f1f1;
+  }  

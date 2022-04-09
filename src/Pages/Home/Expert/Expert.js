@@ -6,7 +6,7 @@ const Expert = ({ expert }) => {
     const { name, img, expertize } = expert;
     return (
         <Card className='services-card my-5' style={{
-            width: '18rem', marginLeft: '60px'
+            width: '14rem', marginLeft: '50px'
         }}>
             <Card.Img variant="top" className='' src={img} />
             <Card.Body>
