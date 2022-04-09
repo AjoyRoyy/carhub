@@ -10,6 +10,8 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Register from './Pages/Login/Register/Register';
 import DashboardPage from './Pages/Dashboard/DashboardPage/DashboardPage';
 import AddServices from './Pages/Dashboard/AddServices/AddServices';
+import ManageServices from './Pages/Dashboard/ManageServices/ManageServices';
+import OrderList from './Pages/Dashboard/OrderList/OrderList';
 
 
 function App() {
@@ -34,9 +36,17 @@ function App() {
             <Route path="/register">
               <Register/>
             </Route>
-            <Route path="/addServices">
-              <AddServices/>
+            <Route path="/addService">
+            <DashboardPage/>
             </Route>
+            <Route path="/manageService">
+            <ManageServices></ManageServices>
+            </Route>
+            <Route path="/orderList">
+            <OrderList></OrderList>
+            </Route>
+
+            
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>

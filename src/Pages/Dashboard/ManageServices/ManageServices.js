@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const ManageServices = () => {
     const [services, setServices] = useState([]);
@@ -23,15 +24,18 @@ const ManageServices = () => {
             })
     }
     return (
-        <div>
-            <h2>Here manage Service</h2>
-            {
-                services.map(service => <div key={service._id}>
-                    <h3>Name: {service.name}</h3>
-                    <button onClick={() => handleDelete(service._id)}>DELETE</button>
-                </div>)
-            }
+        <div className='d-flex'>
+        <div class="sidebar me-4">
+        <Link className='anchor' to="/addService">AddService</Link>
+        <Link className='anchor' to="/orderList">Order Listed</Link>
+        <Link className='anchor' to="/manageService">Manage Orders</Link>
+        <Link className='anchor' to="">Contact</Link>
         </div>
+        <div style={{"height":"600px"}} className='vr'></div>
+        <div>
+            <h2>Manage service</h2>
+        </div>
+    </div>
     );
 };
 

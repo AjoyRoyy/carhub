@@ -1,11 +1,7 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router} from 'react-router-dom/cjs/react-router-dom.min';
-import AddServices from '../AddServices/AddServices';
-import ManageServices from '../ManageServices/ManageServices';
-import './DashboardPage.css'
-const DashboardPage = () => {
+
+const OrderList = () => {
     return (
         <div className='d-flex'>
             <div class="sidebar me-4">
@@ -16,10 +12,10 @@ const DashboardPage = () => {
             </div>
             <div style={{"height":"600px"}} className='vr'></div>
             <div>
-                <h2>Add service</h2>
+                <h2>Order list</h2>
             </div>
         </div>
     );
 };
 
-export default DashboardPage;
+export default OrderList;
