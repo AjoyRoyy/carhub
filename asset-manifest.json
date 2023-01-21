@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/carhub/static/css/main.434f5208.chunk.css",
+    "main.js": "/carhub/static/js/main.a34d190a.chunk.js",
+    "main.js.map": "/carhub/static/js/main.a34d190a.chunk.js.map",
+    "runtime-main.js": "/carhub/static/js/runtime-main.48a86124.js",
+    "runtime-main.js.map": "/carhub/static/js/runtime-main.48a86124.js.map",
+    "static/js/2.f7762819.chunk.js": "/carhub/static/js/2.f7762819.chunk.js",
+    "static/js/2.f7762819.chunk.js.map": "/carhub/static/js/2.f7762819.chunk.js.map",
+    "static/js/3.54797fd3.chunk.js": "/carhub/static/js/3.54797fd3.chunk.js",
+    "static/js/3.54797fd3.chunk.js.map": "/carhub/static/js/3.54797fd3.chunk.js.map",
+    "index.html": "/carhub/index.html",
+    "static/css/main.434f5208.chunk.css.map": "/carhub/static/css/main.434f5208.chunk.css.map",
+    "static/js/2.f7762819.chunk.js.LICENSE.txt": "/carhub/static/js/2.f7762819.chunk.js.LICENSE.txt",
+    "static/media/404.3fb1b585.png": "/carhub/static/media/404.3fb1b585.png",
+    "static/media/Babar.39c67b51.jpg": "/carhub/static/media/Babar.39c67b51.jpg",
+    "static/media/Bipul.c7708cae.jpg": "/carhub/static/media/Bipul.c7708cae.jpg",
+    "static/media/Shohan.0d39f4de.jpg": "/carhub/static/media/Shohan.0d39f4de.jpg",
+    "static/media/car1.8d88881a.jpg": "/carhub/static/media/car1.8d88881a.jpg",
+    "static/media/car2.729e4b80.jpg": "/carhub/static/media/car2.729e4b80.jpg",
+    "static/media/car3.0beab96d.jpg": "/carhub/static/media/car3.0beab96d.jpg",
+    "static/media/sabbir.23a0eec6.jpg": "/carhub/static/media/sabbir.23a0eec6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48a86124.js",
+    "static/js/2.f7762819.chunk.js",
+    "static/css/main.434f5208.chunk.css",
+    "static/js/main.a34d190a.chunk.js"
+  ]
+}
